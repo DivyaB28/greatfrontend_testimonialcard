@@ -58,3 +58,4 @@ Making html dom more accessible and making use of best pratices to increase perf
 - [seo meta description tag](https://developer.chrome.com/docs/lighthouse/seo/meta-description)
 - [server images in WEBP, AVIF formats](https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images)
 - [Creating AVIF images with Squoosh](https://codelabs.developers.google.com/codelabs/avif#0)
+- [Image no loading after deploy in Vite bug fix](https://vitejs.dev/guide/assets.html)
