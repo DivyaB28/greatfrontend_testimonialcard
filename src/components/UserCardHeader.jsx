@@ -1,10 +1,13 @@
 import React from "react";
-import userAvatar from "../../img/profile-thumbnail.png";
+
+const userAvatar = new URL("../../profile-thumbnail.png", import.meta.url).href;
+const userAvatarAVIF = new URL("../../profile-thumbnail.avif", import.meta.url)
+  .href;
 
 const UserAvatarInfo = () => {
   return (
     <picture className="w-12 h-12">
-      <source type="image/avif" srcSet="../../img/profile-thumbnail.avif" />
+      <source type="image/avif" srcSet={userAvatarAVIF} />
       <img
         src={userAvatar}
         role="img"
